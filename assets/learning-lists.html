@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learning Lists</title>
+    <style>
+        ol,
+        ul {
+            background: violet;
+            padding: 0;
+            margin: 0;
+            list-style-position: inside; 
+            /* outside is the default value */
+            list-style-type: none; 
+            /* list-style: ; is a short hand for the list-style-type */
+        }
+        li {
+            background: lightpink;
+
+        }
+        ul {
+            list-style-image: url(http://wes.io/K8oo/yellow-bullet.gif);
+        }
+        /* to target a single item in a list use a class */
+        .special {
+            background: purple;
+            list-style: outside;
+            list-style: armenian;
+
+        }
+    
+    </style>
+</head>
+<body>
+    <ul>
+        <li>cups</li>
+        <li class="special">cakes</li>
+        <li>butter</li>
+    </ul>
+    <ol>
+        <li> Get the cups</li>
+        <li> Get the cakes</li>
+        <li> put together</li>
+    </ol>
+
+</body>
+</html>
