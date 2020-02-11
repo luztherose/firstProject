@@ -114,7 +114,7 @@ header h1 {
 
 .feature-container img {
     flex:1;
-    width: 70%;
+    width: 100%;
 }
 
 .feature-container {
